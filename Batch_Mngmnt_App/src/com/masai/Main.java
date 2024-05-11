@@ -37,21 +37,21 @@ public class Main {
 		int opt = 0;
 		
 		do {
-				System.out.println( "Press '1' -_-_-> to view all faculty"
+				System.out.println( "Press '1' ----- > to view all faculty"
 		                            +"\n"+
-						            "Press '2' -_-_-> to create new Course"
+						            "Press '2' ------ > to create new Course"
 						            +"\n"+
-						            "Press '3' -_-_-> to view all Course"
+						            "Press '3'-------> to view all Course"
 						            +"\n"+
-						            "Press '4' -_-_-> to delete a Course"
+						            "Press '4'-----> to delete a Course"
 						            +"\n"+
-						            "Press '5' -_-_-> to view a particular Course"
+						            "Press '5' -----> to view a particular Course"
 						            +"\n"+
-						            "Press '6' -_-_-> to Update a particular Course"
+						            "Press '6' ------> to Update a particular Course"
 						            +"\n"+
-						            "Press '7' -_-_-> to Assign a faculty to a Course"
+						            "Press '7' ------> to Assign a faculty to a Course"
 						            +"\n"+
-						            "Press '0' -_-_-> to Exit From Admin...");
+						            "Press '0' ------> to Exit From Admin...");
 				
 				opt = sc.nextInt();
 				switch(opt) {
